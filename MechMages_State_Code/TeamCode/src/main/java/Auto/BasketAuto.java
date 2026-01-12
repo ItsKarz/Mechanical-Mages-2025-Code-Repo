@@ -20,15 +20,6 @@ import com.qualcomm.robotcore.hardware.TouchSensor;
 import pedroPathing.constants.FConstants;
 import pedroPathing.constants.LConstants;
 
-/**
- * This is an example auto that showcases movement and control of two servos autonomously.
- * It is a 0+4 (Specimen + Sample) bucket auto. It scores a neutral preload and then pickups 3 samples from the ground and scores them before parking.
- * There are examples of different ways to build paths.
- * A path progression method has been created and can advance based on time, position, or other factors.
- *
- * @author Baron Henderson - 20077 The Indubitables
- * @version 2.0, 11/28/2024
- */
 @Config
 @Autonomous(name = "BasketAutoFinal", group = "Examples")
 public class BasketAuto extends OpMode {
